@@ -1,19 +1,6 @@
 # SystemHealthAnalyzer
 A professional PowerShell module for comprehensive system health monitoring and reporting. Generate beautiful HTML and CSV reports with system metrics, disk usage, service health, and process analysis.
 
-System Health Reporter
-
-https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white
-
-https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white
-
-https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
-
-https://img.shields.io/badge/Version-1.0.0-blue.svg?style=for-the-badge
-
-
-
-A professional PowerShell module for comprehensive system health monitoring and reporting. Generate beautiful HTML and CSV reports with system metrics, disk usage, service health, and process analysis.
 
 Features
 
