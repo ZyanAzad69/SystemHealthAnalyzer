@@ -14,6 +14,7 @@ A professional PowerShell module for comprehensive system health monitoring and 
 
 **Quick Start**
 **Installion**: 
+Method 1: Clone Repository
 1. Run Powershell 
 2. Clone the Repository by copy and pasting the the command below in the PowerShell:
       git clone https://github.com/ZyanAzad69/SystemHealthAnalyzer.git
