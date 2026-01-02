@@ -27,16 +27,13 @@ Method 1: Clone Repository
 
 Method 2: Manual Installation
 1. Download the repository form this github link:
-   https://github.com/ZyanAzad69/SystemHealthAnalyzer.git
-2. Extract the zip file to the desktop
-3. Run PowerShell
-4. Run the command below to navigate to the Module directory
-   cd $env:USERPROFILE\Desktop\\SystemHealthAnalyzer-main\SystemHealthAnalyzer-main\
-
-Method 2: Manual Installation
-1. Download the repository from the link below:
   https://github.com/ZyanAzad69/SystemHealthAnalyzer.git
 2. Extract the zip file on the desktop(for user ease)
 3. Now run PowerShell
 4. Run the command below to navigate to the module directory:
-   cd $env:USERPROFILE\Desktop\SystemHealthAnalyzer-main\SystemHealthAnalyzer-main\
+   cd $env:USERPROFILE\Desktop\SystemHealthAnalyzer-main\
+5. Import the module 
+      import-module .\SystemHealthReporter
+6. To get your System report run the command:
+   Get-SystemHealthReport
+
