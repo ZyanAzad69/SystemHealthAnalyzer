@@ -12,6 +12,40 @@ A professional PowerShell module for comprehensive system health monitoring and 
    d. OS-platform: Works on Windows
 3. Create output in HTML Report Preview and CSV file
 
+**Report Contents**
+1. System Information
+- Computer name and OS version
+- Memory usage (total/free/percentage)
+- System uptime and last boot time
+- Processor information
+
+2. Disk Health Analysis
+- Drive letters and labels
+- Total, used, and free space
+- Percentage free with color coding:
+  - 🟢 Green: > 20% free
+  - 🟡 Yellow: 10-20% free (Warning)
+  - 🔴 Red: < 10% free (Critical)
+
+3. Service Health
+- Automatic services not running
+- Service display names and status
+- Startup type verification
+
+4. Process Analysis
+- Top 10 processes by CPU usage
+- Memory consumption per process
+- Process responsiveness status
+
+**Configuration**
+
+Default Settings
+- Output Path: “C:\System-Health-Report”
+- Report Format: HTML + CSV
+- Service Check: Automatic services only
+- Process Limit: Top 10 by CPU
+
+
 **Quick Start**
 **Installion**: 
 Method 1: Clone Repository
@@ -34,6 +68,8 @@ Method 2: Manual Installation
    cd $env:USERPROFILE\Desktop\SystemHealthAnalyzer-main\
 5. Import the module 
       import-module .\SystemHealthReporter
-6. To get your System report run the command:
+   **If you get any error while Importing the module run the following command and again import the module one more time:
+   Set-ExcutionPolicy Unrestrited -Scope CurrentUser -Force
+7. To get your System report run the command:
    Get-SystemHealthReport
 
